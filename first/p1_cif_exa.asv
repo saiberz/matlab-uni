@@ -1,0 +1,19 @@
+clc;clear;
+a0=2.718; %3
+a1=2.7183456; %3
+a2=2.71828283; %5
+a3=2.71;%1
+a4=2.71828182845899999;%
+a=2.7183456;
+a=a3;
+
+A=exp(1);%2.718281828459046..
+ea=abs(A-a);
+fprintf('Valor exacto=%.20f\n',A);
+fprintf('Valor aproxi=%.20f\n',a);
+fprintf('Error absolu=%.20f\n',ea);
+n=1; %Cantidad de cifras decimales exactas
+fprintf('  Referencia=%.20f\n',.5*10^-n);
+
+
+    

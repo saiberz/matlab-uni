@@ -1,0 +1,17 @@
+clc
+a0=91806.916; %
+a1=91806.9161; %
+a2=91800.91608280156; %
+a3=91806.9260;%
+a4=91800;%
+a=91806.916;%
+A=91806.91608279256; %Valor exacto
+er=abs(a-A)/abs(A);
+fprintf('Valor exacto=%.20f\n',A);
+fprintf('Valor aproxi=%.20f\n',a);
+fprintf('Error relati=%.20f\n',er);
+n=10; %Cantidad de cifras decimales significativas exactas
+fprintf(' Referencia=%.20f\n',5*10^-n);
+
+
+    
